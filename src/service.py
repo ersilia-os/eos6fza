@@ -30,7 +30,7 @@ class Model(object):
     def __init__(self):
         self.DATA_FILE = "_data.csv"
         self.PRED_FILE = "_pred.csv"
-        self.RUN_FILE = "_run.sh"
+        self.RUN_FILE = "run.sh"
         self.LOG_FILE = "_run.log"
 
     def load(self, framework_dir, checkpoints_dir):
@@ -53,7 +53,7 @@ class Model(object):
                 f.write(smiles + os.linesep)
         run_file = os.path.join(tmp_folder, self.RUN_FILE)
         with open(run_file, "w") as f:
-            lines = ["python {0}/grover/main.py {1} {2}".format(self.framework_dir, data_file, pred_file)] 
+            lines = ["bash {0}/run.sh {0} {1} {2}".format(self.framework_dir, data_file, pred_file)] 
             f.write(os.linesep.join(lines))
         cmd = "bash {0}".format(run_file)
         with open(log_file, "w") as fp:

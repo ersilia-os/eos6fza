@@ -25,6 +25,8 @@ Using the Molecule Net dataset ClinTox, the authors trained a classification mod
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos6fza)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos6fza) (AMD64, ARM64)
 
 ## Citation
 
