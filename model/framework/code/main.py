@@ -47,7 +47,7 @@ def smiles_to_dataframe(txt_file_path):
     return input_csv_path
 
 ersilia-tmp_folder = tempfile.mktemp()
-features_path = os.path.join(tmp_folder, "features.npz")  
+features_path = os.path.join(ersilia-tmp_folder, "features.npz")  
 
 if __name__ == '__main__':
     # setup random seed
