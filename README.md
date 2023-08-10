@@ -14,8 +14,8 @@ Using the Molecule Net dataset ClinTox, the authors trained a classification mod
 * Task: `Classification`
 * Output: `Probability`
 * Output Type: `Float`
-* Output Shape: `Single`
-* Interpretation: Probability that a molecule has toxic effects
+* Output Shape: `List`
+* Interpretation: Probability that a molecule is approved by the FDA and probability that a molecule shows toxicity in clinical trials
 
 ## References
 
