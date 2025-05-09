@@ -1,0 +1,3 @@
+name,type,direction,description
+fda_approved,float,high,Probability that the drug is FDA approved
+ct_tox,float,high,Probability that the drug has clinical toxicity
