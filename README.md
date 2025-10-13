@@ -2,8 +2,7 @@
 
 Using the Molecule Net dataset ClinTox, the authors trained a classification model to predict the likelihood of failure in clinical trials due to toxicity. The dataset has been built using FDA approved drugs (non-toxic) and a set of drugs that have failed at advanced clinical trial stages. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).
 
-This model was incorporated on 2022-07-13.
-
+This model was incorporated on 2022-07-13.Last packaged on 2025-10-13.
 
 ## Information
 ### Identifiers
@@ -43,11 +42,11 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
 - **Environment Size (Mb):** `2565`
-- **Image Size (Mb):** `6417.49`
+- **Image Size (Mb):** `6499.9`
 
 **Computational Performance (seconds):**
-- 10 inputs: `48.97`
-- 100 inputs: `444.46`
+- 10 inputs: `33.86`
+- 100 inputs: `157.57`
 - 10000 inputs: `-1`
 
 ### References
