@@ -40,20 +40,17 @@
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-13",
-    "Last Packaging Date": "2025-10-13",
+    "Last Packaging Date": "2026-03-10",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6fza",
-    "Docker Architecture": [
-        "AMD64",
-        "ARM64"
-    ],
+    "Docker Architecture": "AMD64",
     "Model Size": 1310.0,
     "Environment Size": 2548.0,
-    "Image Size": 6499.9,
-    "Computational Performance 1": 33.86,
-    "Computational Performance 2": 38.81,
-    "Computational Performance 3": 157.57,
-    "Computational Performance 4": 1436.49,
+    "Image Size": 6502.35,
+    "Computational Performance 1": 35.43,
+    "Computational Performance 2": 40.17,
+    "Computational Performance 3": 160.97,
+    "Computational Performance 4": 1445.62,
     "Computational Performance 5": -1.0
 }
