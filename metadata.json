@@ -1,7 +1,7 @@
 {
     "Identifier": "eos6fza",
     "Slug": "grover-clintox",
-    "Status": "In maintenance",
+    "Status": "Ready",
     "Title": "Toxicity at clinical trial stage",
     "Description": "Using the Molecule Net dataset ClinTox, the authors trained a classification model to predict the likelihood of failure in clinical trials due to toxicity. The dataset has been built using FDA approved drugs (non-toxic) and a set of drugs that have failed at advanced clinical trial stages. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).",
     "Deployment": [
@@ -39,17 +39,20 @@
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-13",
-    "Last Packaging Date": "2026-03-10",
+    "Last Packaging Date": "2026-05-20",
     "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos6fza",
-    "Docker Architecture": "AMD64",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ],
     "Model Size": 1310.0,
     "Environment Size": 2547.0,
-    "Image Size": 6502.35,
-    "Computational Performance 1": 35.43,
-    "Computational Performance 2": 40.17,
-    "Computational Performance 3": 160.97,
-    "Computational Performance 4": 1445.62,
+    "Image Size": 6502.53,
+    "Computational Performance 1": 29.82,
+    "Computational Performance 2": 23.72,
+    "Computational Performance 3": 52.06,
+    "Computational Performance 4": 396.69,
     "Computational Performance 5": -1.0
 }
