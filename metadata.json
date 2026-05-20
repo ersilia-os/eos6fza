@@ -23,7 +23,6 @@
     "Interpretation": "Probability that a molecule is approved by the FDA and probability that a molecule shows toxicity in clinical trials",
     "Tag": [
         "Toxicity",
-        "MoleculeNet",
         "Chemical graph model",
         "Side effects"
     ],
