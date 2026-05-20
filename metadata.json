@@ -1,7 +1,7 @@
 {
     "Identifier": "eos6fza",
     "Slug": "grover-clintox",
-    "Status": "Ready",
+    "Status": "In maintenance",
     "Title": "Toxicity at clinical trial stage",
     "Description": "Using the Molecule Net dataset ClinTox, the authors trained a classification model to predict the likelihood of failure in clinical trials due to toxicity. The dataset has been built using FDA approved drugs (non-toxic) and a set of drugs that have failed at advanced clinical trial stages. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).",
     "Deployment": [
