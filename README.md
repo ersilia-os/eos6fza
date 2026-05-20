@@ -2,7 +2,7 @@
 
 Using the Molecule Net dataset ClinTox, the authors trained a classification model to predict the likelihood of failure in clinical trials due to toxicity. The dataset has been built using FDA approved drugs (non-toxic) and a set of drugs that have failed at advanced clinical trial stages. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).
 
-This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
+This model was incorporated on 2022-07-13.Last packaged on 2026-05-20.
 
 ## Information
 ### Identifiers
@@ -36,17 +36,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6fza](https://hub.docker.com/r/ersiliaos/eos6fza)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
 - **Environment Size (Mb):** `2547`
-- **Image Size (Mb):** `6502.35`
+- **Image Size (Mb):** `6502.53`
 
 **Computational Performance (seconds):**
-- 10 inputs: `35.43`
-- 100 inputs: `160.97`
+- 10 inputs: `29.82`
+- 100 inputs: `52.06`
 - 10000 inputs: `-1`
 
 ### References
