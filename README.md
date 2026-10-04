@@ -1,6 +1,6 @@
 # Toxicity at clinical trial stage
 
-Using the Molecule Net dataset ClinTox, the authors trained a classification model to predict the likelihood of failure in clinical trials due to toxicity. The dataset has been built using FDA approved drugs (non-toxic) and a set of drugs that have failed at advanced clinical trial stages. This model has been trained using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER).
+Separates drugs that reached FDA approval from those that failed in advanced clinical trials for toxicity reasons, using the ClinTox collection from MoleculeNet. The two outcomes are predicted as independent probabilities rather than as a single verdict. A graph transformer pretrained on 10 million unlabelled molecules was fine-tuned on the pairing. The set of clinically failed drugs is small and its failures span many mechanisms, so a high toxicity score signals resemblance to known failures rather than a specific liability.
 
 This model was incorporated on 2022-07-13.Last packaged on 2026-05-20.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-13.Last packaged on 2026-05-20.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability that a molecule is approved by the FDA and probability that a molecule shows toxicity in clinical trials
+- **Interpretation:** Probability of FDA approval and probability of clinical trial failure through toxicity.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
