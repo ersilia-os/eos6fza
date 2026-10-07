@@ -1,6 +1,6 @@
 # Toxicity at clinical trial stage
 
-Separates drugs that reached FDA approval from those that failed in advanced clinical trials for toxicity reasons, using the ClinTox collection from MoleculeNet. The two outcomes are predicted as independent probabilities rather than as a single verdict. A graph transformer pretrained on 10 million unlabelled molecules was fine-tuned on the pairing. The set of clinically failed drugs is small and its failures span many mechanisms, so a high toxicity score signals resemblance to known failures rather than a specific liability.
+Separates drugs that reached FDA approval from those eliminated during clinical trials because of toxicity, using ClinTox, a MoleculeNet set of 1,478 compounds. The two outcomes are returned as independent probabilities rather than as a single verdict. A graph transformer pretrained on 10 million unlabelled molecules was fine-tuned on the pairing, with three fine-tuned folds averaged. The failed drugs are few and their failures span many mechanisms, so a high toxicity score signals resemblance to known failures rather than a specific liability.
 
 This model was incorporated on 2022-07-13.Last packaged on 2026-05-20.
 
