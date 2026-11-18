@@ -2,7 +2,8 @@
 
 Separates drugs that reached FDA approval from those eliminated during clinical trials because of toxicity, using ClinTox, a MoleculeNet set of 1,478 compounds. The two outcomes are returned as independent probabilities rather than as a single verdict. A graph transformer pretrained on 10 million unlabelled molecules was fine-tuned on the pairing, with three fine-tuned folds averaged. The failed drugs are few and their failures span many mechanisms, so a high toxicity score signals resemblance to known failures rather than a specific liability.
 
-This model was incorporated on 2022-07-13.Last packaged on 2026-05-20.
+This model was incorporated on 2022-07-13.
+Last packaged on 2026-05-20.
 
 ## Information
 ### Identifiers
@@ -38,6 +39,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos6fza](https://hub.docker.com/r/ersiliaos/eos6fza)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos6fza.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos6fza_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos6fza_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1310`
